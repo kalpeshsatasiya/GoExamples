@@ -9,10 +9,13 @@ type person struct {
 }
 
 func main() {
+
 	//This syntax creates a new struct.
 	fmt.Println(person{"Bob", 20})
+
 	//You can name the fields when initializing a struct.
 	fmt.Println(person{name:"Alice", age:30})
+
 	//Omitted fields will be zero-valued.
 	fmt.Println(person{name:"Fred"})
 
